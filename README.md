@@ -5,9 +5,13 @@ This repository contains the implementation of a traffic congestion prediction s
 📁 Repository Structure
 .
 ├── Datasets/
+
 ├── data preprocessing/
+
 ├── Multimodal Fusion Model/
+
 ├── Sequential Pipeline Model/
+
 📊 Datasets/
 
 Contains all datasets used in the project, including:
@@ -24,6 +28,7 @@ Data cleaning and normalization
 Feature engineering
 Sentiment extraction from text data
 Final dataset construction for modeling
+
 🧠 Multimodal Fusion Model/
 
 Implements deep learning models that combine multiple data modalities:
@@ -34,6 +39,7 @@ Transformer-based models (e.g., BERT) for text sentiment
 Fusion strategies:
 Feature concatenation
 Attention-based fusion
+
 🔄 Sequential Pipeline Model/
 
 Implements a pipeline-based approach:
